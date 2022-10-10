@@ -61,4 +61,4 @@ const DiaryItem = ({onEdit, onRemove, author, content, created_date, emotion, id
     	</div>);
 }
 
-export default DiaryItem;
+export default React.memo(DiaryItem);
